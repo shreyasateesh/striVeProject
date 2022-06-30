@@ -93,14 +93,6 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UM-2T-iFR">
-                                <rect key="frame" x="0.0" y="118" width="414" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.27058823529411763" green="0.4823529411764706" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="stri   e" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAp-dB-Vdd">
                                 <rect key="frame" x="86" y="222" width="241" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -155,6 +147,14 @@
                                     <segue destination="SdC-r9-qQG" kind="showDetail" id="qNT-p8-l0C"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UM-2T-iFR">
+                                <rect key="frame" x="-1" y="120" width="414" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.27058823529411763" green="0.4823529411764706" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.94509803920000002" green="0.98039215690000003" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1218,12 +1218,12 @@
     <inferredMetricsTieBreakers>
         <segue reference="chx-Re-LLu"/>
         <segue reference="HaN-XI-Szf"/>
-        <segue reference="BT8-Tb-4e1"/>
+        <segue reference="d3k-jj-yox"/>
         <segue reference="h9L-4F-aYE"/>
         <segue reference="0UB-c2-SGT"/>
         <segue reference="dpV-6m-WwY"/>
         <segue reference="C6T-c9-VQu"/>
         <segue reference="GiG-8s-hQc"/>
-        <segue reference="7t9-ge-bxE"/>
+        <segue reference="QYO-WT-mIQ"/>
     </inferredMetricsTieBreakers>
 </document>
