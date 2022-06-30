@@ -44,7 +44,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="gbP-NJ-Zkt"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="gbP-NJ-Zkt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -201,7 +201,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="259-11-7ti"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="259-11-7ti"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3V-HD-PCE">
@@ -314,7 +314,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="T2Z-IQ-yme"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="T2Z-IQ-yme"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZVU-Zw-ery">
@@ -351,21 +351,14 @@
             </objects>
             <point key="canvasLocation" x="1979.7101449275365" y="127.90178571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Fourth View Controller-->
         <scene sceneID="grr-mg-Mie">
             <objects>
-                <viewController id="RTX-8r-xQP" sceneMemberID="viewController">
+                <viewController id="RTX-8r-xQP" customClass="fourthViewController" customModule="striVeProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UAp-lG-nPE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="medical funds" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNo-s7-ect">
-                                <rect key="frame" x="0.0" y="193" width="394" height="467"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqB-Ds-lvI">
                                 <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -375,24 +368,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF3-G5-sK4">
-                                <rect key="frame" x="338" y="44" width="47" height="86"/>
+                                <rect key="frame" x="257" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͕">
+                                <buttonConfiguration key="configuration" style="plain" title="▶︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="dWW-xU-maf" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Wnd-w4-GeC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkD-TA-fn5">
-                                <rect key="frame" x="30" y="44" width="47" height="86"/>
+                                <rect key="frame" x="96" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͔">
+                                <buttonConfiguration key="configuration" style="plain" title="◀︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="h1b-SI-0ET" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="rWn-BS-1jE"/>
@@ -407,11 +400,11 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="vtU-Yz-vwt"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="vtU-Yz-vwt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qi-Gc-57N">
-                                <rect key="frame" x="175" y="813" width="44" height="83"/>
+                                <rect key="frame" x="185" y="813" width="44" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="?">
@@ -423,7 +416,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceL-t0-Rxv">
-                                <rect key="frame" x="330" y="813" width="55" height="83"/>
+                                <rect key="frame" x="339" y="813" width="55" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="⌂">
@@ -434,6 +427,119 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Khw-ch-dat"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MEDICAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4M-9u-Lbp">
+                                <rect key="frame" x="103" y="48" width="214" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="60"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9A-Mx-9me">
+                                <rect key="frame" x="63" y="130" width="288" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="AMERICAN CANCER SOCIETY" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="amcancer:" destination="RTX-8r-xQP" eventType="touchUpInside" id="Lrf-ej-a8e"/>
+                                    <action selector="citySquare:" destination="h1b-SI-0ET" eventType="touchUpInside" id="rgA-Nb-QSh"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="beC-h9-7Bi"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="PDQ-2i-qof"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="KSy-kL-yqF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0m-Jf-41W">
+                                <rect key="frame" x="58" y="185" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The American Cancer Society is a worldwide voluntary health organization dedicated to eliminating cancer. They promote healthy lifestyles to help you prevent cancer. We research cancer and its causes to find more answers and better treatments. We fight for life saving policy changes.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcS-j2-8wp">
+                                <rect key="frame" x="49" y="319" width="321" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="TEXAS ONCOLOGY FOUNDATION" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ccd:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="acP-Oh-Tr3"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="We3-Hn-ZYr"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="HyP-jn-3JO"/>
+                                    <action selector="hfh:" destination="h1b-SI-0ET" eventType="touchUpInside" id="8ae-Go-prT"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="wsi-O4-c0e"/>
+                                    <action selector="oncology:" destination="RTX-8r-xQP" eventType="touchUpInside" id="rKD-PF-izW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBY-pv-Foa">
+                                <rect key="frame" x="158" y="487" width="104" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="AFCAIDS" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="afcaids:" destination="RTX-8r-xQP" eventType="touchUpInside" id="2Dm-du-NAl"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="Qla-uY-aNX"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="ha6-jZ-35E"/>
+                                    <action selector="godsChild:" destination="h1b-SI-0ET" eventType="touchUpInside" id="a6s-yW-uBF"/>
+                                    <action selector="mobsoup:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="q5V-Li-V07"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="i4f-DX-oTk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="By4-O1-HGA">
+                                <rect key="frame" x="72" y="530" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The American Foundation for Children with AIDS is a non-profit organization that helps children in sub-Saharan Africa, as well as their guardians, who are HIV positive or who have contracted AIDS and lack access to appropriate medical care. 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yT-Yw-z9E">
+                                <rect key="frame" x="150" y="657" width="115" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ST. JUDES" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="UCw-3d-pxj"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="jw3-m7-qu2"/>
+                                    <action selector="mannaHouse:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="Bt1-2a-PNK"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="MUp-oW-GqQ"/>
+                                    <action selector="stJudes:" destination="RTX-8r-xQP" eventType="touchUpInside" id="ENW-sG-xWV"/>
+                                    <action selector="utr:" destination="h1b-SI-0ET" eventType="touchUpInside" id="150-QI-kLh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="To6-DE-Yyr">
+                                <rect key="frame" x="60" y="686" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">St. Jude is leading the way the world understands, treats and defeats childhood cancer and other life-threatening diseases. St. Jude treats the toughest childhood cancers and pediatric diseases.</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Po-oa-ZLL">
+                                <rect key="frame" x="72" y="363" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Foundation develops and supports programs that offer hope and encouragement to cancer patients and their loved ones through: patient financial assistance, patient support and survivorship groups, and patient and caregiver education.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Cqs-bu-jgS"/>
                         <color key="backgroundColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -443,21 +549,14 @@
             </objects>
             <point key="canvasLocation" x="3727.5362318840585" y="121.875"/>
         </scene>
-        <!--View Controller-->
+        <!--Fifth View Controller-->
         <scene sceneID="O3d-Oa-Upw">
             <objects>
-                <viewController id="dWW-xU-maf" sceneMemberID="viewController">
+                <viewController id="dWW-xU-maf" customClass="fifthViewController" customModule="striVeProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HXK-p6-YOl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ed. funds" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXR-bT-nM4">
-                                <rect key="frame" x="0.0" y="128" width="675" height="360"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k64-vn-5YK">
                                 <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -487,7 +586,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="99o-Dj-bTh"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="99o-Dj-bTh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fU-ZW-FtB">
@@ -502,36 +601,155 @@
                                     <segue destination="kCl-WP-wd1" kind="showDetail" id="jeh-5h-Ula"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDF-Is-OaZ">
-                                <rect key="frame" x="338" y="44" width="47" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͕">
-                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="cPH-XD-yTU" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="fqS-YW-KTS"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Emk-ue-qlW">
-                                <rect key="frame" x="30" y="44" width="47" height="86"/>
+                                <rect key="frame" x="96" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͔">
+                                <buttonConfiguration key="configuration" style="plain" title="◀︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="RTX-8r-xQP" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="H40-At-0oS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDF-Is-OaZ">
+                                <rect key="frame" x="257" y="810" width="74" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="▶︎">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="cPH-XD-yTU" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="fqS-YW-KTS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZg-RH-uVi">
+                                <rect key="frame" x="130" y="152" width="159" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="MALALA FUND" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="citySquare:" destination="h1b-SI-0ET" eventType="touchUpInside" id="Gg5-sj-6jR"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="Vl1-zj-RvX"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="j7e-J8-vzI"/>
+                                    <action selector="malala:" destination="dWW-xU-maf" eventType="touchUpInside" id="FKU-iH-ACO"/>
+                                    <action selector="malala:" destination="07x-9b-xMQ" eventType="touchUpInside" id="Q8H-xg-xlX"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="hsn-Zw-I28"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLk-9R-Xhu">
+                                <rect key="frame" x="12" y="209" width="394" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Malala Fund is an international, non-profit organization that advocates for girls' education. The Fund is working for a world where every girl can learn and lead. Malala Fund invests in education advocates and activists who are challenging the policies and practices that prevent girls from going to school in their communities.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggT-Dn-vi4">
+                                <rect key="frame" x="71" y="324" width="277" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="TEXAS STEM CONNECTIONS" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ccd:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="AbY-3T-OV3"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="n6i-vf-S7q"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="NbA-H7-ld0"/>
+                                    <action selector="hfh:" destination="h1b-SI-0ET" eventType="touchUpInside" id="Phe-YY-stu"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="Qvj-yA-I8A"/>
+                                    <action selector="stem:" destination="dWW-xU-maf" eventType="touchUpInside" id="V7M-Ns-Bve"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikq-df-PGC">
+                                <rect key="frame" x="20" y="375" width="374" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The STEM Education Framework provides the definition, theory of action, and objectives for implementing STEM education across Texas. The framework includes strategies for success, differentiated STEM implementation models, research-based methods of instruction, and high-quality STEM indicators.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A08-zC-GIP">
+                                <rect key="frame" x="168" y="496" width="84" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="PEROT" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="mh3-r2-4xw"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="2dB-30-w25"/>
+                                    <action selector="godsChild:" destination="h1b-SI-0ET" eventType="touchUpInside" id="DpA-Dz-usQ"/>
+                                    <action selector="mobsoup:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="fg9-c9-BnC"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="IR6-DV-B3o"/>
+                                    <action selector="perot:" destination="dWW-xU-maf" eventType="touchUpInside" id="Oyx-3e-uMZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IuA-R4-DQo">
+                                <rect key="frame" x="60" y="527" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Perot Museum of Nature and Science is a natural history and science museum located in Dallas, Texas. They help thrive to encourage kids about the fascinating STEM activities. 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stL-Yc-HiF">
+                                <rect key="frame" x="131" y="638" width="153" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="DREAMSCAPE" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dreamscape:" destination="dWW-xU-maf" eventType="touchUpInside" id="AWo-xp-Pgk"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="C22-oB-m7R"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="GUk-ex-sE3"/>
+                                    <action selector="mannaHouse:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="wQQ-qA-sD0"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="Zbl-g5-hqW"/>
+                                    <action selector="utr:" destination="h1b-SI-0ET" eventType="touchUpInside" id="0ML-hY-1dm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsi-ng-dOL">
+                                <rect key="frame" x="60" y="677" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Dreamscape Foundation provides accommodations for individuals with disabilities in their pursuit of education and life-fulfilling work. Our objective is to aid the small population of people affected by sensory impairments to help them achieve success in life. 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EDUCATIONAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FR4-Ei-GTb">
+                                <rect key="frame" x="42" y="62" width="332" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="60"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="97u-ZU-OWF"/>
                         <color key="backgroundColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="third" destination="IuA-R4-DQo" id="Cef-NS-iNP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMu-nu-4Xv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="07x-9b-xMQ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4515.9420289855079" y="113.83928571428571"/>
         </scene>
@@ -572,7 +790,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Hkb-h7-ML2"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="Hkb-h7-ML2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5L-7i-Bv4">
@@ -622,21 +840,14 @@
             </objects>
             <point key="canvasLocation" x="1934" y="894"/>
         </scene>
-        <!--View Controller-->
+        <!--Sixth View Controller-->
         <scene sceneID="l91-ld-yp6">
             <objects>
-                <viewController id="cPH-XD-yTU" sceneMemberID="viewController">
+                <viewController id="cPH-XD-yTU" customClass="sixthViewController" customModule="striVeProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Heq-Yj-CKD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="animal cruelty" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4H-VP-cxG">
-                                <rect key="frame" x="41" y="54" width="470" height="808"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CA-5d-YbF">
                                 <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -666,7 +877,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="iec-aa-bOq"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="iec-aa-bOq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0g-q2-RYW">
@@ -682,29 +893,143 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nb-eL-DyT">
-                                <rect key="frame" x="338" y="44" width="47" height="86"/>
+                                <rect key="frame" x="257" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͕">
+                                <buttonConfiguration key="configuration" style="plain" title="▶︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="NMu-Xm-GTd" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="oxS-AV-8Jb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ou3-Oc-Ml5">
-                                <rect key="frame" x="30" y="44" width="47" height="86"/>
+                                <rect key="frame" x="96" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͔">
+                                <buttonConfiguration key="configuration" style="plain" title="◀︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="dWW-xU-maf" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Efu-lj-aJS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XX-fK-gn2">
+                                <rect key="frame" x="80" y="153" width="251" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HUMANE SOCIETY OF NT" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="citySquare:" destination="h1b-SI-0ET" eventType="touchUpInside" id="MO7-y6-SHf"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="8pa-9M-u2N"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="Zij-bZ-VjE"/>
+                                    <action selector="hsoNT:" destination="cPH-XD-yTU" eventType="touchUpInside" id="GZB-22-nGc"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="a9J-Ml-Xfn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Es-et-wWd">
+                                <rect key="frame" x="56" y="197" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Humane Society of North Texas eliminates animal cruelty, promote humane values, and ends animal homelessness. Our goal is to improve the lives of Texas animals and the people who love them. Our main point is helping serve animals in need. 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGT-dt-T5w">
+                                <rect key="frame" x="171" y="319" width="73" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="SPCA" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ccd:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="nis-hT-5VL"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="blj-Dc-ShX"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="kLo-Sc-aYh"/>
+                                    <action selector="hfh:" destination="h1b-SI-0ET" eventType="touchUpInside" id="EgA-su-pvD"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="9VX-X8-Bv0"/>
+                                    <action selector="spca:" destination="cPH-XD-yTU" eventType="touchUpInside" id="phw-h0-WsJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhm-ZE-0WS">
+                                <rect key="frame" x="58" y="358" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The SPCA of Texas is the most comprehensive animal welfare agency in North Texas. Their lifesaving programs include adoption, foster care, animal cruelty investigations, welness clinins, and spay/nuetrer services. 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cw-cE-0os">
+                                <rect key="frame" x="90" y="483" width="235" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="OCEAN CONSERVANCY" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="dlK-vw-jcp"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="vqs-NG-8yN"/>
+                                    <action selector="godsChild:" destination="h1b-SI-0ET" eventType="touchUpInside" id="zR5-L0-iXE"/>
+                                    <action selector="mobsoup:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="R2l-OE-g1c"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="XGO-Jg-vC0"/>
+                                    <action selector="oceanCon:" destination="cPH-XD-yTU" eventType="touchUpInside" id="oMd-Gk-hUo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxM-7H-TXN">
+                                <rect key="frame" x="58" y="524" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ocean Conservancy is a nonprofit environmental advocacy group based in Washington, D.C., United States. The organization helps formulate ocean policy at the federal and state government levels based on peer reviewed science. 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWN-zu-jSx">
+                                <rect key="frame" x="54" y="645" width="308" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="WORLD ANIMAL PROTECTIONS" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="IHI-M2-zEy"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="n6x-h6-c0g"/>
+                                    <action selector="mannaHouse:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="X7j-vo-k75"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="yi6-go-0OO"/>
+                                    <action selector="utr:" destination="h1b-SI-0ET" eventType="touchUpInside" id="Gf6-0P-rKy"/>
+                                    <action selector="worldAnimal:" destination="cPH-XD-yTU" eventType="touchUpInside" id="Tv1-vi-XXN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msx-Dd-Gqv">
+                                <rect key="frame" x="58" y="686" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">World Animal Protection is an international non-profit animal rights organization that has been in operation since 1981. The charity describes its vision as: A world where animal rights matter and animal cruelty has ended.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ANIMAL CRUELTY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OF9-F3-b41">
+                                <rect key="frame" x="-6" y="63" width="427" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="57"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OBV-Po-inl"/>
                         <color key="backgroundColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -714,21 +1039,14 @@
             </objects>
             <point key="canvasLocation" x="3300.0000000000005" y="1301.7857142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Seventh View Controller-->
         <scene sceneID="ueS-9g-rvn">
             <objects>
-                <viewController id="NMu-Xm-GTd" sceneMemberID="viewController">
+                <viewController id="NMu-Xm-GTd" customClass="seventhViewController" customModule="striVeProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cfk-wz-BOu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="animal shelters" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNX-cK-EME">
-                                <rect key="frame" x="49" y="54" width="392" height="808"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AI-ZX-QIP">
                                 <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -758,7 +1076,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="mAS-Fb-FiA"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="mAS-Fb-FiA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dv7-wb-IB9">
@@ -774,29 +1092,143 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rk1-dq-DEx">
-                                <rect key="frame" x="338" y="54" width="47" height="86"/>
+                                <rect key="frame" x="257" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͕">
+                                <buttonConfiguration key="configuration" style="plain" title="▶︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="6Ae-1U-Lum" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="hp7-ku-Hs3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTE-GW-b7B">
-                                <rect key="frame" x="30" y="54" width="47" height="86"/>
+                                <rect key="frame" x="96" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͔">
+                                <buttonConfiguration key="configuration" style="plain" title="◀︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="cPH-XD-yTU" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="MT8-tO-Uoa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dax-5y-8qF">
+                                <rect key="frame" x="90" y="131" width="235" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="OPERATION KINDNESS" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="citySquare:" destination="h1b-SI-0ET" eventType="touchUpInside" id="gsV-9r-OiE"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="kw5-Zb-f5v"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="5ws-QS-s7F"/>
+                                    <action selector="kind:" destination="NMu-Xm-GTd" eventType="touchUpInside" id="o0J-Kb-I4A"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="hJq-1q-pxg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgd-UY-vog">
+                                <rect key="frame" x="58" y="180" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">At Operation Kindness, they believe each animal deserves an excellent quality of life in a loving home. There are some circumstances where an animal does not have a positive quality of life and euthanasia may be the only humane option. We will not euthanize an animal for space or for a treatable medical condition.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dh9-JB-U2P">
+                                <rect key="frame" x="61" y="314" width="297" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="WORLD ANIMAL PROTECTION" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ccd:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="y5F-Gz-6KD"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="xOB-gT-qha"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="4SZ-cF-V4o"/>
+                                    <action selector="hfh:" destination="h1b-SI-0ET" eventType="touchUpInside" id="wfg-e2-NhT"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="5YI-HS-ecA"/>
+                                    <action selector="world:" destination="NMu-Xm-GTd" eventType="touchUpInside" id="ilR-tg-Ssr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZU-Yi-v4I">
+                                <rect key="frame" x="60" y="357" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">World Animal Protection is an international non-profit animal rights organization that has been in operation since 1981. The charity describes its vision as: A world where animal rights matter and animal cruelty has ended.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQo-Xg-kDV">
+                                <rect key="frame" x="84" y="461" width="251" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HUMANE SOCIETY OF NT" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="txl-fF-DKN"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="jHn-M8-U7I"/>
+                                    <action selector="godsChild:" destination="h1b-SI-0ET" eventType="touchUpInside" id="Mff-xA-XKX"/>
+                                    <action selector="human:" destination="NMu-Xm-GTd" eventType="touchUpInside" id="mBP-VZ-5cu"/>
+                                    <action selector="mobsoup:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="dkN-eR-4Sp"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="YpP-B2-7xn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1da-FH-efi">
+                                <rect key="frame" x="60" y="500" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Humane Society of North Texas eliminates animal cruelty, promote humane values, and ends animal homelessness. Our goal is to improve the lives of Texas animals and the people who love them. Our main point is helping serve animals in need. 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXy-K6-aeb">
+                                <rect key="frame" x="115" y="623" width="190" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="PAWS IN THE CITY" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="dot-yy-jc3"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="b7i-qp-U8s"/>
+                                    <action selector="mannaHouse:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="wqr-ax-qV0"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="njs-ds-qdY"/>
+                                    <action selector="paws:" destination="NMu-Xm-GTd" eventType="touchUpInside" id="M8A-wn-mRD"/>
+                                    <action selector="utr:" destination="h1b-SI-0ET" eventType="touchUpInside" id="OlJ-wj-a0P"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97c-yH-XVh">
+                                <rect key="frame" x="60" y="671" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Paws in the City is a non-profit, all-volunteer, no-kill organization with the commitment to ending the overpopulation, abuse, and neglect of Dallas/Ft. Worth area dogs. They have no paid staff. 100% of all funds raised goes directly to dogs in need. Their goal is that every adoptable dog gets a loving home.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ANIMAL SHELTERS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXK-uF-8fj">
+                                <rect key="frame" x="-11" y="12" width="437" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="55"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ec4-OP-KJP"/>
                         <color key="backgroundColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -804,7 +1236,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tvh-Xf-yKv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4148" y="1302"/>
+            <point key="canvasLocation" x="4147.826086956522" y="1301.7857142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4mu-23-VRZ">
@@ -814,21 +1246,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCr-wk-UUc">
-                                <rect key="frame" x="60" y="341" width="294" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="HOUSING" cornerStyle="large">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="40"/>
-                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="h1b-SI-0ET" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="V72-Ad-hBr"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jzq-ka-Fxc">
                                 <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -849,74 +1266,8 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Tlq-44-DH8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFy-Es-2xh">
-                                <rect key="frame" x="60" y="426" width="294" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="MEDICAL" cornerStyle="large">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="40"/>
-                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="RTX-8r-xQP" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="1YL-Qk-qLk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTN-mM-M2N">
-                                <rect key="frame" x="60" y="511" width="294" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="EDUCATIONAL" cornerStyle="large">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="40"/>
-                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRZ-wy-ynG">
-                                <rect key="frame" x="60" y="256" width="293" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="DRIVES" cornerStyle="large">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="40"/>
-                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="6Ae-1U-Lum" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ZKb-kS-C3k"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vks-9X-9uF">
-                                <rect key="frame" x="60" y="596" width="294" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="ANIMAL CRUELTY" cornerStyle="large">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="40"/>
-                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEK-pt-1wh">
-                                <rect key="frame" x="60" y="681" width="293" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="ANIMAL SHELTER" cornerStyle="large">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="40"/>
-                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TABLE OF CONTENTS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWM-4x-m78">
-                                <rect key="frame" x="71" y="64" width="270" height="184"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NAVIGATION" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWM-4x-m78">
+                                <rect key="frame" x="72" y="58" width="270" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="50"/>
                                 <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -934,6 +1285,122 @@
                                     <segue destination="kCl-WP-wd1" kind="showDetail" id="qEc-de-7OA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkX-qI-zHk">
+                                <rect key="frame" x="99" y="279" width="80" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="✵">
+                                    <color key="titleColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6Ae-1U-Lum" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="eIs-55-Cs8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okd-Mi-Ok0">
+                                <rect key="frame" x="239" y="314" width="89" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="✵">
+                                    <color key="titleColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="h1b-SI-0ET" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Xhn-uu-Xbg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZG-w4-A0K">
+                                <rect key="frame" x="58" y="436" width="89" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="✵">
+                                    <color key="titleColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RTX-8r-xQP" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="IbH-Hz-n0b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dw1-LO-oCh">
+                                <rect key="frame" x="239" y="426" width="89" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="✵">
+                                    <color key="titleColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cPH-XD-yTU" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="xGc-Mk-wLC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOq-G4-NKw">
+                                <rect key="frame" x="185" y="510" width="89" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="✵">
+                                    <color key="titleColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NMu-Xm-GTd" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="dnI-A2-i7n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxG-rE-yMX">
+                                <rect key="frame" x="146" y="402" width="88" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="✵">
+                                    <color key="titleColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dWW-xU-maf" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="BDl-4A-0gN"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="puzzle" translatesAutoresizingMaskIntoConstraints="NO" id="ajs-Xi-SmC">
+                                <rect key="frame" x="-86" y="243" width="552" height="467"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drive" translatesAutoresizingMaskIntoConstraints="NO" id="rFk-qY-lZf">
+                                <rect key="frame" x="44" y="263" width="184" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="house" translatesAutoresizingMaskIntoConstraints="NO" id="tOC-Zz-k65">
+                                <rect key="frame" x="190" y="303" width="188" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWn-lr-NTq">
+                                <rect key="frame" x="80" y="492" width="37" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="medical" translatesAutoresizingMaskIntoConstraints="NO" id="wz7-N4-5xe">
+                                <rect key="frame" x="-9" y="390" width="206" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="books" translatesAutoresizingMaskIntoConstraints="NO" id="3lC-4G-xqh">
+                                <rect key="frame" x="140" y="389" width="110" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qco-c5-b4O">
+                                <rect key="frame" x="265" y="466" width="37" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="muzzle" translatesAutoresizingMaskIntoConstraints="NO" id="M3x-Kb-ptk">
+                                <rect key="frame" x="205" y="431" width="160" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shelter" translatesAutoresizingMaskIntoConstraints="NO" id="Zzv-c1-Raw">
+                                <rect key="frame" x="134" y="497" width="196" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XCl-If-KwZ"/>
                         <color key="backgroundColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -993,7 +1460,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="BT8-Tb-4e1"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="BT8-Tb-4e1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6X-aq-VqY">
@@ -1030,21 +1497,14 @@
             </objects>
             <point key="canvasLocation" x="2027.5362318840582" y="-555.13392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="xLl-Gh-6hH">
             <objects>
-                <viewController id="6Ae-1U-Lum" sceneMemberID="viewController">
+                <viewController id="6Ae-1U-Lum" customClass="secondViewController" customModule="striVeProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wRg-5L-DQq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="drives list" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEH-Ps-uXt">
-                                <rect key="frame" x="48" y="161" width="290" height="575"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRB-Im-w1A">
                                 <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1074,7 +1534,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Hor-6F-yrw"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="Hor-6F-yrw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVZ-P3-f3S">
@@ -1090,27 +1550,129 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJA-T4-dfC">
-                                <rect key="frame" x="338" y="44" width="47" height="86"/>
+                                <rect key="frame" x="257" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͕">
+                                <buttonConfiguration key="configuration" style="plain" title="▶︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="h1b-SI-0ET" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="eeT-fY-1RH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tun-5e-4b0">
-                                <rect key="frame" x="30" y="44" width="47" height="86"/>
+                                <rect key="frame" x="96" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͔">
+                                <buttonConfiguration key="configuration" style="plain" title="◀︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="NMu-Xm-GTd" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Q3F-hp-maS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FOOD DRIVES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XD3-5W-0sc">
+                                <rect key="frame" x="47" y="44" width="320" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="60"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRo-9T-Zgi">
+                                <rect key="frame" x="93" y="132" width="234" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="NORTH TX FOOD BANK" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="5RZ-ds-B8e"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="4yD-zs-Dif"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="1XF-nC-zp2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5J-eI-3kv">
+                                <rect key="frame" x="58" y="171" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The North Texas Food Bank is an organization that is located in the Dallas Area. This non-profit helps solve world hunger by distributing donated, purchased and prepared foods through a network of nearly 1,000 feeding programs and 262 Partner Agencies in 13 North Texas counties.</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYq-fc-mKh">
+                                <rect key="frame" x="63" y="314" width="294" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="CATHOLIC CHARITIES DALLAS" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ccd:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="jZU-O7-M0P"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="CKS-pr-SB1"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="pKK-UD-eMU"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="pTf-sp-O7z"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twK-BY-OHF">
+                                <rect key="frame" x="58" y="344" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Catholic Charities Dallas is a faith-driven social service agency focused on improving the quality of life for under privileged people. We are first responders to our community’s most vulnerable, helping those in crisis move toward a stronger and happier life. </string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEB-19-smy">
+                                <rect key="frame" x="132" y="475" width="156" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="MOBILE SOUP" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="P5r-a5-Whf"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="QHq-4w-oo2"/>
+                                    <action selector="mobsoup:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="edx-Es-lDO"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="QmX-2e-wIC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8h-NB-zI1">
+                                <rect key="frame" x="61" y="494" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Mobile soup is a well developed non-profit organization focusing on basic needs for people in need. Mobile soup helps feeding, clothing, and caring for the needy and homeless in the Dallas area. </string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE9-Kr-ZDl">
+                                <rect key="frame" x="61" y="649" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">At Manna House, they’re working to ensure that every member of our community has dependable access to food, utilities, and other basic needs. In order to have a thriving community, it will take all of us working together to support our neighbors.</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkm-sc-d7n">
+                                <rect key="frame" x="126" y="619" width="168" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="MANNA HOUSE" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="Ihc-hg-XhS"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="N47-x3-odZ"/>
+                                    <action selector="mannaHouse:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="cep-QM-lmE"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="Nlx-0f-SWM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1119,24 +1681,18 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Xa-fd-HMp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="tke-PO-jJH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3401.449275362319" y="-971.65178571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="CTN-8Z-mqd">
             <objects>
-                <viewController id="h1b-SI-0ET" sceneMemberID="viewController">
+                <viewController id="h1b-SI-0ET" customClass="thirdViewController" customModule="striVeProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NEG-hR-MYo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="housing projects" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzI-EB-uZX">
-                                <rect key="frame" x="0.0" y="-53" width="490" height="808"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3a-eq-50V">
                                 <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1166,7 +1722,7 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nZo-Qq-GTu" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="mii-9y-z8k"/>
+                                    <segue destination="nZo-Qq-GTu" kind="presentation" modalPresentationStyle="fullScreen" id="mii-9y-z8k"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmJ-Uu-a7v">
@@ -1181,28 +1737,134 @@
                                     <segue destination="kCl-WP-wd1" kind="showDetail" id="Lmc-hQ-DbT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmS-hF-A6X">
-                                <rect key="frame" x="338" y="44" width="47" height="86"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRD-pP-6wz">
+                                <rect key="frame" x="96" y="810" width="74" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͕">
+                                <buttonConfiguration key="configuration" style="plain" title="◀︎">
                                     <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6Ae-1U-Lum" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="TBb-wj-OuG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmS-hF-A6X">
+                                <rect key="frame" x="257" y="810" width="74" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="▶︎">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="RTX-8r-xQP" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="TXr-1j-qYu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRD-pP-6wz">
-                                <rect key="frame" x="30" y="44" width="47" height="86"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOUSING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qW7-L7-Vpq">
+                                <rect key="frame" x="96" y="44" width="223" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="60"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyE-ut-Bhe">
+                                <rect key="frame" x="139" y="134" width="141" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="͔">
-                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="50"/>
-                                    <color key="baseForegroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <buttonConfiguration key="configuration" style="filled" title="CITYSQUARE" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="6Ae-1U-Lum" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="TBb-wj-OuG"/>
+                                    <action selector="citySquare:" destination="h1b-SI-0ET" eventType="touchUpInside" id="cky-zT-cOC"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="EOH-7x-gZ5"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="r90-x4-fwx"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="0YE-vQ-2eI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fC-kz-iu3">
+                                <rect key="frame" x="57" y="182" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">CitySquare has grown into a strong nonprofit organization offering a large variety of social services that help bring importance to the four key areas related to the persistence of poverty: hunger, health, housing, and hope. Together, our social service programs provide more than 50,000 human touches in Dallas and Paris, Texas.</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MY8-1g-bRF">
+                                <rect key="frame" x="83" y="331" width="252" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HABITAT FOR HUMANITY" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ccd:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="cfV-Sx-Bn5"/>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="XG5-LW-8MO"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="6fh-5S-OGa"/>
+                                    <action selector="hfh:" destination="h1b-SI-0ET" eventType="touchUpInside" id="tA9-dg-XVN"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="HnN-Iu-Ecr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JY-ub-dAk">
+                                <rect key="frame" x="60" y="357" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Habitat for Humanity is a nonprofit organization that helps people in your community and around the world build or improve a place they can call home. Habitat for Humanity brings people together to build homes, communities and hope.</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvR-ZR-gyP">
+                                <rect key="frame" x="136" y="485" width="147" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="GOD'S CHILD" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="DFW-ml-0VQ"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="XDV-PY-5YB"/>
+                                    <action selector="godsChild:" destination="h1b-SI-0ET" eventType="touchUpInside" id="ogM-lp-Igq"/>
+                                    <action selector="mobsoup:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="xa3-Ai-cip"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="feF-Jk-2TT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJ1-6b-VfB">
+                                <rect key="frame" x="60" y="496" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">God’s Child is a developing non-profit organization focused on helping solve poverty. This organization is dedicated to reaching children and families in poverty.</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08W-SO-mJ5">
+                                <rect key="frame" x="60" y="640" width="298" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Under the Roof is a non-profit organization dedicated to assisting people on housing problems. The focus on finding roofs to put over homeless people by advocating for them throughout many struggles they face. </string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpp-em-UNh">
+                                <rect key="frame" x="113" y="611" width="188" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="UNDER THE ROOF" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.22352941179999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.6588235294" green="0.85490196080000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="drive1:" destination="tke-PO-jJH" eventType="touchUpInside" id="axN-ji-q9c"/>
+                                    <action selector="driveNTFB:" destination="tke-PO-jJH" eventType="touchUpInside" id="lmY-it-tUw"/>
+                                    <action selector="mannaHouse:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="1Lc-hp-TmZ"/>
+                                    <action selector="ntfb:" destination="6Ae-1U-Lum" eventType="touchUpInside" id="5Rt-Ba-Kk1"/>
+                                    <action selector="utr:" destination="h1b-SI-0ET" eventType="touchUpInside" id="4IS-b6-LLE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1216,14 +1878,23 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="chx-Re-LLu"/>
-        <segue reference="HaN-XI-Szf"/>
-        <segue reference="d3k-jj-yox"/>
-        <segue reference="h9L-4F-aYE"/>
-        <segue reference="0UB-c2-SGT"/>
-        <segue reference="dpV-6m-WwY"/>
-        <segue reference="C6T-c9-VQu"/>
-        <segue reference="GiG-8s-hQc"/>
-        <segue reference="QYO-WT-mIQ"/>
+        <segue reference="rWn-BS-1jE"/>
+        <segue reference="hp7-ku-Hs3"/>
+        <segue reference="mAS-Fb-FiA"/>
+        <segue reference="oxS-AV-8Jb"/>
+        <segue reference="MT8-tO-Uoa"/>
+        <segue reference="Efu-lj-aJS"/>
+        <segue reference="H40-At-0oS"/>
+        <segue reference="qIK-XE-b2r"/>
+        <segue reference="V6M-yx-oPj"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="books" width="640" height="640"/>
+        <image name="drive" width="612" height="612"/>
+        <image name="house" width="960" height="720"/>
+        <image name="medical" width="612" height="612"/>
+        <image name="muzzle" width="612" height="612"/>
+        <image name="puzzle" width="960" height="720"/>
+        <image name="shelter" width="960" height="720"/>
+    </resources>
 </document>

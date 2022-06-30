@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDCC27CD286E09CF001AAF7D /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC27CC286E09CF001AAF7D /* secondViewController.swift */; };
+		BDCC27CF286E2B36001AAF7D /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC27CE286E2B36001AAF7D /* thirdViewController.swift */; };
+		BDCC27D1286E3E32001AAF7D /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC27D0286E3E32001AAF7D /* fourthViewController.swift */; };
+		BDCC27D3286E4024001AAF7D /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC27D2286E4024001AAF7D /* fifthViewController.swift */; };
+		BDCC27D5286E4181001AAF7D /* sixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC27D4286E4181001AAF7D /* sixthViewController.swift */; };
+		BDCC27D7286E424C001AAF7D /* seventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC27D6286E424C001AAF7D /* seventhViewController.swift */; };
 		BDFE6A7B286B5E7F00CEDD4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE6A7A286B5E7F00CEDD4D /* AppDelegate.swift */; };
 		BDFE6A7D286B5E7F00CEDD4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE6A7C286B5E7F00CEDD4D /* SceneDelegate.swift */; };
 		BDFE6A7F286B5E7F00CEDD4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE6A7E286B5E7F00CEDD4D /* ViewController.swift */; };
@@ -37,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDCC27CC286E09CF001AAF7D /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		BDCC27CE286E2B36001AAF7D /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		BDCC27D0286E3E32001AAF7D /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+		BDCC27D2286E4024001AAF7D /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
+		BDCC27D4286E4181001AAF7D /* sixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthViewController.swift; sourceTree = "<group>"; };
+		BDCC27D6286E424C001AAF7D /* seventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seventhViewController.swift; sourceTree = "<group>"; };
 		BDFE6A77286B5E7F00CEDD4D /* striVeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = striVeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFE6A7A286B5E7F00CEDD4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDFE6A7C286B5E7F00CEDD4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +116,13 @@
 				BDFE6A7A286B5E7F00CEDD4D /* AppDelegate.swift */,
 				BDFE6A7C286B5E7F00CEDD4D /* SceneDelegate.swift */,
 				BDFE6A7E286B5E7F00CEDD4D /* ViewController.swift */,
+				BDCC27CC286E09CF001AAF7D /* secondViewController.swift */,
+				BDCC27CE286E2B36001AAF7D /* thirdViewController.swift */,
 				BDFE6A80286B5E7F00CEDD4D /* Main.storyboard */,
+				BDCC27D6286E424C001AAF7D /* seventhViewController.swift */,
+				BDCC27D4286E4181001AAF7D /* sixthViewController.swift */,
+				BDCC27D2286E4024001AAF7D /* fifthViewController.swift */,
+				BDCC27D0286E3E32001AAF7D /* fourthViewController.swift */,
 				BDFE6A86286B5E7F00CEDD4D /* Assets.xcassets */,
 				BDFE6A88286B5E7F00CEDD4D /* LaunchScreen.storyboard */,
 				BDFE6A8B286B5E7F00CEDD4D /* Info.plist */,
@@ -261,9 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCC27D7286E424C001AAF7D /* seventhViewController.swift in Sources */,
+				BDCC27D5286E4181001AAF7D /* sixthViewController.swift in Sources */,
 				BDFE6A7F286B5E7F00CEDD4D /* ViewController.swift in Sources */,
 				BDFE6A7B286B5E7F00CEDD4D /* AppDelegate.swift in Sources */,
+				BDCC27D1286E3E32001AAF7D /* fourthViewController.swift in Sources */,
+				BDCC27CF286E2B36001AAF7D /* thirdViewController.swift in Sources */,
+				BDCC27D3286E4024001AAF7D /* fifthViewController.swift in Sources */,
 				BDFE6A85286B5E7F00CEDD4D /* striVeProject.xcdatamodeld in Sources */,
+				BDCC27CD286E09CF001AAF7D /* secondViewController.swift in Sources */,
 				BDFE6A7D286B5E7F00CEDD4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
