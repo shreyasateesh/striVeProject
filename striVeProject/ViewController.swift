@@ -19,8 +19,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func invisible(_ sender: Any) {
-        UIView.animate(withDuration : 1, animations : {self.blue.frame.origin.x -= 105}, completion: nil)
-        UIView.animate(withDuration : 1, animations : {self.red.frame.origin.x += 105}, completion: nil)
+        UIView.animate(withDuration : 1, animations : {self.blue.frame.origin.x -= 195}, completion: nil)
+        UIView.animate(withDuration : 1, animations : {self.red.frame.origin.x += 195}, completion: nil)
         /*UIView.animate(withDuration : 1, animations : {self.v.frame.size = (width: 10.0, height: 10.0)}, completion: nil)
          */
     }
